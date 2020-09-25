@@ -1,0 +1,47 @@
+.App {
+  height: 100%;
+}
+
+.nav {
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: center;
+}
+
+.avatar {
+  border-radius: 5px;
+  padding: 5px 12px 8px;
+  background: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.App .tableButton {
+  cursor: pointer;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 6rem;
+}
+
+.inputContainer {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.nameInput {
+  border: solid 1px grey;
+  border-radius: 3px;
+  /* height: 35px; */
+  margin-left: 20px;
+  margin-right: 5px;
+  padding: 10px;
+  font-size: 6rem;
+}
+
+.optionsRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
